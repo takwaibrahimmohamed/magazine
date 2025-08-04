@@ -38,8 +38,11 @@
 }
 @media (max-width:768px){
     .sidebar {
-          width: 150px;
+          width: 70px;
           height:100%
+    }
+    .sidebar .nav-link span{
+         display: none;
     }
     
 }

@@ -2,3 +2,19 @@
     background-color: #0083B7;
     color: white;
 }
+
+@media (max-width:768px){
+    .action{
+            display: flex
+;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    height: 100px;
+    gap:2px
+    }
+    .action button{
+        font-size: 10px;
+    }
+
+}

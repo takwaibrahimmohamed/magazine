@@ -14,11 +14,11 @@
       <tr *ngFor="let newsItem of news">
         <td>{{ newsItem.title }}</td>
         <td>{{ newsItem.date }}</td>
-        <td>
+        <td class="action">
           <button class="btn btn-sm update me-2" [routerLink]="['edit', newsItem.id]">
             <i class="fas fa-edit"></i>
           </button>
-          <button class="btn btn-sm btn-danger" (click)="deleteNews(newsItem.id)">
+          <button class="btn btn-sm delete btn-danger" (click)="deleteNews(newsItem.id)">
             <i class="fas fa-trash-alt"></i>
           </button>
         </td>
