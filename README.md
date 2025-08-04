@@ -15,4 +15,6 @@ Features
 1. Install dependencies
 
    npm install
+   
    ng serve
+
