@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Nubian Festival Returns to Aswan",
+    "summary": "Aswan celebrated the Nubian Festival with hundreds of visitors. The event featured traditional music, food, and crafts.",
+    "image": "assets/news1.jpg",
+    "date": "2025-08-01",
+    "category": "Culture"
+  },
+  {
+    "id": 2,
+    "title": "New Nile Corniche Project Launched",
+    "summary": "Aswan launched its new Nile Corniche project as part of the city’s tourism and infrastructure development plan.",
+    "image": "assets/news2.jpg",
+    "date": "2025-07-28",
+    "category": "Tourism"
+  },
+  {
+    "id": 3,
+    "title": "Handicraft Fair Showcases Nubian Heritage",
+    "summary": "A new fair was opened to display local handmade Nubian products as part of an initiative to support traditional artisans.",
+    "image": "assets/news3.jpg",
+    "date": "2025-07-20",
+    "category": "Heritage"
+  }
+]

@@ -1,0 +1,23 @@
+<div class="container-fluid">
+  
+  <h2 class="head my-4">Aswan News Timeline</h2>
+   <div class="timeline">
+  @for (item of articles; track $index) {
+ <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+          <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+            <h3 class=" text-light">{{item.title}}</h3>
+            <p>{{item.summary}}</p>
+          </div>
+          <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+           <span style="position: relative;z-index: 11;color: #0083B7;">{{item.id}}</span>1
+          </div>
+          <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+            <time>{{item.date |date}}</time>
+            
+          </div>
+        </div>
+  }
+       
+      
+      </div>
+</div>

@@ -1,0 +1,16 @@
+<div [ngClass]="{'collapsed': collapsed}" class="sidebar text-white d-flex flex-column py-4">
+  <button class="btn toggle text-white text-start" (click)="toggleSidebar()">
+    <i class="fas fa-bars fs-4"></i> 
+  </button>
+
+  <nav class="nav flex-column mt-5">
+    <a class="nav-link text-white my-2" [routerLink]="['dashboard']">
+      <i class="fas fa-tachometer-alt"></i> <span *ngIf="!collapsed">Dashboard</span></a>
+    <a class="nav-link text-white my-2" [routerLink]="['news']"> <i class="fas fa-newspaper"></i><span *ngIf="!collapsed">Manage News</span></a>
+    <a class="nav-link text-white my-2" [routerLink]="['addnews']"> <i class="fas fa-plus-circle"></i> <span *ngIf="!collapsed">Add News</span></a>
+    <a class="nav-link text-white my-2" [routerLink]="['dashboard']">   <i class="fas fa-question-circle"></i> <span *ngIf="!collapsed">help</span></a>
+    <a class="nav-link text-white my-2" [routerLink]="['dashboard']"> <i class="fas fa-info-circle"></i> <span *ngIf="!collapsed">about</span></a>
+    <a class="nav-link text-white my-2" [routerLink]="['dashboard']">  <i class="fas fa-cog"></i> <span *ngIf="!collapsed">setting</span></a>
+   
+  </nav>
+</div>

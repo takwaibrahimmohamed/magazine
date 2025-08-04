@@ -1,0 +1,37 @@
+.districts-section h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #00212E;
+    text-align: center;
+}
+.districts-section h3{
+    color: #0083B7;
+        font-size: 2rem;
+    font-weight: 700;
+}
+.districts-section p{
+      font-size: 1rem;
+    font-weight: 400;
+    color: #7F7F7F;
+}
+.district-item {
+  transition: transform 0.3s ease;
+}
+
+.district-item:hover {
+  transform: scale(1.01);
+}
+
+.district-img {
+width: 100%;
+  object-fit: cover;
+}
+
+
+
+@media (max-width:778px){
+    .districts-section h2{
+        font-size: 1.2rem;
+    }
+  
+}

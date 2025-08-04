@@ -1,0 +1,17 @@
+<div class="container mt-4">
+  <h3>Edit News</h3>
+  <form (ngSubmit)="updateNews()" *ngIf="news">
+    <div class="mb-3">
+      <label>Title</label>
+      <input class="form-control" [(ngModel)]="news.title" name="title" required />
+    </div>
+
+    <div class="mb-3">
+      <label>Description</label>
+      <textarea class="form-control" [(ngModel)]="news.description" name="description"></textarea>
+    </div>
+
+    <button type="submit" class="btn update">Update</button>
+    <a  class="btn btn-danger ms-2"  [routerLink]="['/admin/news']">Cancel</a>
+  </form>
+</div>

@@ -1,0 +1,62 @@
+.dashboard h2{
+font-size: 2rem;
+
+}
+.stats {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.stat-card {
+  padding: 1rem;
+  background: white;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  flex: 1;
+  text-align: start;
+}
+.stat-card h3{
+    color: #0083B7;
+    font-size: 1.4rem;
+}
+.stat-card p{
+  color: #7F7F7F;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.add-btn {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  background-color: #0083B7 ;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.badge {
+  font-size: 0.85rem;
+  padding: 0.5em 0.75em;
+  border-radius: 20px;
+}
+
+@media (max-width:768px){
+.dashboard h2{
+    font-size: 1rem;
+}
+.stats{
+    flex-direction: column;
+}
+.stats h3{
+   font-size: 1rem;
+}
+}

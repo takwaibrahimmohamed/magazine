@@ -1,0 +1,27 @@
+<section class="py-3 bg-white FQA">
+<h2 class="text-center mb-5">Frequently asked questions</h2>
+<div class="accordion custom-accordion" id="aswanAccordion">
+      <div class="accordion-item" *ngFor="let item of accordionItems; let i = index">
+        <h2 class="accordion-header" [id]="'heading' + i">
+          <button class="accordion-button" 
+                  type="button"
+                  [attr.data-bs-toggle]="'collapse'"
+                  [attr.data-bs-target]="'#collapse' + i"
+                  [attr.aria-expanded]="i === 0 ? 'true' : 'false'"
+                  [attr.aria-controls]="'collapse' + i"
+                  [class.collapsed]="i !== 0">
+            {{ item.title }}
+          </button>
+        </h2>
+        <div [id]="'collapse' + i"
+             class="accordion-collapse collapse"
+             [class.show]="i === 0"
+             [attr.aria-labelledby]="'heading' + i"
+             data-bs-parent="#aswanAccordion">
+          <div class="accordion-body">
+            {{ item.content }}
+          </div>
+        </div>
+      </div>
+    </div>
+</section>

@@ -1,0 +1,44 @@
+.FQA h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #00212E;
+    text-align: center;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0083B7;
+  border-bottom: 2px solid #0083B7;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.custom-accordion .accordion-button {
+  background-color: #f1f9fc;
+  color: #0083B7;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+  background-color: #d1ecf9;
+  color: #005e85;
+}
+
+.custom-accordion .accordion-body {
+  background-color: #ffffff;
+  border-left: 4px solid #0083B7;
+  border-radius: 0 0 6px 6px;
+  padding: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+
+@media (max-width:778px){
+.FQA h2{
+        font-size: 1.2rem;
+    }
+  
+}

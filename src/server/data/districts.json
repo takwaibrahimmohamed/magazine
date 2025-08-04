@@ -1,0 +1,22 @@
+[
+  {
+    "name": "East District",
+    "description": "One of Aswan's oldest areas, full of cultural sites and traditional markets. It’s known for its vibrant souqs where you can find handmade crafts, spices, and Nubian fabrics. Tourists often enjoy exploring the narrow streets filled with local life. The district is home to several historical mosques and traditional Nubian houses. Local events and folk music performances frequently take place here, giving visitors a real taste of Aswan's heritage.",
+    "image": "../../assets/789.jpg"
+  },
+  {
+    "name": "West District",
+    "description": "Peaceful area near the Nile Corniche with modern residential buildings. It offers relaxing Nile views and evening strolls along the Corniche. Locals gather in cafés, and the area features a mix of traditional charm and urban calm. The West District is also known for being close to some upscale hotels and restaurants, making it a favorite for both tourists and residents seeking a quiet, scenic atmosphere.",
+    "image": "../../assets/424666-أسوان-بعد-مشروعات-تطوير-الكورنيش-وواجهة-المدينة-السياحية-(3).jpeg"
+  },
+  {
+    "name": "Al-Korour",
+    "description": "A busy district with schools and public services. It serves as a central hub for students and daily commuters. You'll find bakeries, government buildings, and lively street corners with vendors selling local snacks. The area is also home to several clinics, libraries, and sports centers, making it ideal for families and active residents. Its convenient public transportation makes it one of the most connected zones in the city.",
+    "image": "../../assets/2020_12_16_20_41_14_669.jpg"
+  },
+  {
+    "name": "New Seil",
+    "description": "Recently developed with housing complexes and good infrastructure. It’s becoming popular among young families thanks to its organized layout and accessibility. Parks and community centers are emerging to serve the growing population. The district also includes several new schools, medical facilities, and wide streets designed for smooth traffic flow. It represents the future expansion of Aswan's urban landscape.",
+    "image": "../../assets/1349-photo-15976273555f39dbdb1516b.jpeg"
+  }
+]

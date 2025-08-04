@@ -1,0 +1,37 @@
+<div class="dashboard">
+<div class="">
+  <h2> Admin Dashboard</h2>
+  </div>
+  <div class="stats">
+    <div class="stat-card">
+      <h3><i class="fas fa-newspaper"></i> Total News</h3>
+      <p>{{ totalNews }}</p>
+    </div>
+    <div class="stat-card">
+      <h3><i class="fas fa-clock"></i> Last Added</h3>
+      <p>{{ lastAddedDate }}</p>
+    </div>
+  </div>
+
+<div class="mt-3">
+  <h4><i class="fas fa-clock"></i> Latest News</h4>
+  
+  <div class="table-responsive">
+    <table class="table table-hover table-striped align-middle shadow-sm">
+      <thead class="table-light">
+        <tr>
+          <th scope="col"> Title</th>
+          <th scope="col"><i class="fas fa-calendar-alt"></i> Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of news | slice:0:3">
+          <td>{{ item.title }}</td>
+          <td>{{ item.date }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+</div>

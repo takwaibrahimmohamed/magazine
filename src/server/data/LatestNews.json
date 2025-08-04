@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Aswan Hosts International Tourism Conference",
+    "description": "The city welcomed experts from around the world to discuss sustainable tourism and Nile-based travel.",
+    "image": "../../assets/Abu-SImbel-Temple-Aswan-Tourist-Attractions-Egypt-Tours-Portal.jpg",
+    "date": "2025-08-02"
+  },
+  {
+    "id": 2,
+    "title": "New Hospital Opens in West Aswan",
+    "description": "A new state-of-the-art hospital has been inaugurated to serve residents with advanced medical care.",
+      "image": "../../assets/hosp.jpg",
+    "date": "2025-08-01"
+  },
+  {
+    "id": 3,
+    "title": "Cultural Festival Celebrates Nubian Heritage",
+    "description": "Traditional music, dance, and art featured in a lively event celebrating Aswan's rich Nubian history.",
+     "image": "../../assets/WhatsApp_Image_2023-11-25_at_11.04.45_AM.jpeg-860x483.jpg",
+    "date": "2025-07-28"
+  },
+  {
+    "id": 4,
+    "title": "Aswan Dam Sees Record Water Levels",
+    "description": "The High Dam has recorded historically high water storage levels this season, ensuring strong irrigation support.",
+        "image": "../../assets/aswan-high-dam-egypt.webp",
+    "date": "2025-07-25"
+  },
+  {
+    "id": 5,
+    "title": "Solar Power Plant Boosts Clean Energy",
+    "description": "A new solar farm has begun operations, contributing significantly to Aswan’s green energy goals.",
+     "image": "../../assets/download.webp",
+    "date": "2025-07-22"
+  },
+  {
+    "id": 6,
+    "title": "University Launches Nile Research Center",
+    "description": "Aswan University opens a new research center focused on environmental and hydrological studies of the Nile River.",
+        "image": "../../assets/Aswan-Eygpt.jpg",
+    "date": "2025-07-20"
+  }
+]

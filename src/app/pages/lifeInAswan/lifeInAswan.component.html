@@ -1,0 +1,24 @@
+<div class="mx-3">
+  <section class="districts-section container-fluid mt-4 mb-3">
+  <h2 class="text-center mb-5 ">Explore Aswan’s Districts</h2>
+
+  <div *ngFor="let area of district; let i = index" 
+       class="row align-items-start mb-5 district-item "
+       [ngClass]="{ 'flex-row-reverse': i % 2 !== 0 }">
+
+    <div class="col-md-6">
+      <img [src]="area.image" [alt]="area.name" class="img-fluid rounded-4 shadow-sm district-img" />
+    </div>
+
+    <div class="col-md-6">
+      <h3 class=" mb-3">{{ area.name }}</h3>
+      <p class="">{{ area.description }}</p>
+    </div>
+    
+  </div>
+</section>
+<app-Accordion></app-Accordion>
+
+</div>
+<app-scrollUp_buton></app-scrollUp_buton>
+

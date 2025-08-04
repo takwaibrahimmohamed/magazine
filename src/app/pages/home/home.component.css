@@ -1,0 +1,70 @@
+.info {
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.home h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #00212E;
+    text-align: center;
+}
+.info p {
+    text-align: center;
+     width: 60%;
+}
+.info p ,.home .readmore{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #7F7F7F;
+}
+.home .readmore{
+    border:none;
+    background-color: transparent;
+    display: inline;
+font-weight: 500;
+    color: #00212E;
+}
+.topArtractive img{
+    height: 250px;
+    object-fit: cover;
+}
+.btn-group{
+        display: flex
+;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn-group .active{
+    
+    background-color: #0083B7;
+    color:white;
+    border:1.3px solid #0083B7;
+}
+.btn-group .nonActive{
+color:#0083B7;
+border:1.3px solid #0083B7;
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:778px){
+    .home h2{
+        font-size: 1.2rem;
+    }
+    .btn-group button{
+        font-size: 13px;
+        padding: 10px;
+    }
+}

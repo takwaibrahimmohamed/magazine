@@ -1,0 +1,21 @@
+<div class="container mt-4">
+  <h3>Add News</h3>
+  <form (ngSubmit)="onSubmit()" #newsForm="ngForm">
+    <div class="mb-3">
+      <label>Title</label>
+      <input type="text" class="form-control" [(ngModel)]="newsItem.title" name="title" required />
+    </div>
+
+    <div class="mb-3">
+      <label>Description</label>
+      <textarea class="form-control" [(ngModel)]="newsItem.description" name="description" required></textarea>
+    </div>
+
+    <div class="mb-3">
+      <label>Date</label>
+      <input type="date" class="form-control" [(ngModel)]="newsItem.date" name="date" required />
+    </div>
+
+    <button class="btn btn-primary" type="submit" [disabled]="!newsForm.form.valid">Add News</button>
+  </form>
+</div>

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Philae Temple",
+    "type": "Attractions",
+    "description": "A magnificent temple dedicated to the goddess Isis, located on Agilkia Island in the Nile River.",
+    "image": "assets/kiosk-of-trajan.jpg"
+  },
+  {
+    "title": "Nubian Village",
+    "type": "Culture",
+    "description": "A colorful village known for its traditional Nubian culture, handicrafts, and beautiful scenery.",
+    "image": "assets/village-view-from-the.jpg"
+  },
+  {
+    "title": "Nubian Museum",
+    "type": "Culture",
+    "description": "Modern museum chronicling Nubian culture and history through artifacts and exhibits.",
+    "image": "assets/nubian-museum.jpg"
+  },
+  {
+    "title": "Elephantine Island",
+    "type": "Attractions",
+    "description": "The oldest inhabited part of Aswan and a historic cult center of the god Khnum.",
+    "image": "assets/elephantine-island.jpg"
+  },
+  {
+    "title": "Animalia",
+    "type": "Culture",
+    "description": "An ethno-biological museum about Nubian life and nature, divided into three parts.",
+    "image": "assets/ncaption.jpg"
+  },
+  {
+    "title": "Aswan Market",
+    "type": "Tourism",
+    "description": "A vibrant outdoor market, central to Aswan’s local life and commerce.",
+    "image": "assets/mcaption.jpg"
+  }
+]

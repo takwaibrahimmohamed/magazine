@@ -1,0 +1,29 @@
+<div class="mt-3">
+  <h4><i class="fas fa-clock"></i> Latest News</h4>
+  
+<div class="table-responsive">
+  <table class="table table-bordered align-middle table-hover">
+    <thead class="table-light">
+      <tr>
+        <th>Title</th>
+        <th>Date</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let newsItem of news">
+        <td>{{ newsItem.title }}</td>
+        <td>{{ newsItem.date }}</td>
+        <td>
+          <button class="btn btn-sm update me-2" [routerLink]="['edit', newsItem.id]">
+            <i class="fas fa-edit"></i>
+          </button>
+          <button class="btn btn-sm btn-danger" (click)="deleteNews(newsItem.id)">
+            <i class="fas fa-trash-alt"></i>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>

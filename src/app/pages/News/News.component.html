@@ -1,0 +1,42 @@
+<section class="hero-news py-5 text-center text-white" 
+style="background: url('../../../assets/aswabanner_2025_2.webp') center/cover no-repeat;height:80vh;object-fit: cover;">
+<div class="d-flex justify-content-center align-items-center h-100">
+<div class="overlay" >
+    <h1 class="">News & Stories from Aswan</h1>
+    <p class="lead">Stay updated with what's happening in the heart of Upper Egypt</p>
+  </div>
+</div> 
+
+</section>
+<div class="news mx-4">
+  <section class="exprlore container my-5 py-4">
+  <div class="row">
+    <div class="col-md-5 "style="position: relative;">
+        <div class="skew-background d-none d-lg-block"></div>
+      <img src="assets/crewcaption.jpg" alt=" Aswan" class="img-fluid rounded shadow" />
+    </div>
+    <div class="col-md-7 mt-3 mt-md-0">
+      <h3>Latest Updates from Aswan</h3>
+      <p>
+        Aswan continues to captivate visitors with its rich cultural heritage and stunning landscapes. In this special report, we explore some of the top things you can do in this historic city.
+        Aswan continues to captivate visitors with its rich cultural heritage and stunning landscapes. In this special report, we explore some of the top things you can do in this historic city.
+      </p>
+    
+      <a class="btn  mt-3" href="#">Read More</a>
+    </div>
+  </div>
+</section>
+<div class="latestNews my-4">
+  <h2 class="my-3 mb-4">lates News in Aswan</h2>
+  <div class="row">
+  <div class="col-md-4 mb-4" *ngFor="let item of news">
+ <app-card
+ title={{item.title}}
+ description={{item.description}}
+ image={{item.image}}
+ ></app-card>
+  </div>
+</div>
+
+</div>
+</div>

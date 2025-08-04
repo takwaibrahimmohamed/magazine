@@ -1,0 +1,54 @@
+<app-slider></app-slider>
+<div class="home mx-4">
+  
+<div class="info my-4 mb-2">
+  <h2 class="my-3 mb-4">Aswan, Egypt</h2>
+<p *ngIf="content.length <= 150">{{ content }}</p>
+
+  <div *ngIf="content.length > 150" class="d-flex justify-content-center">
+    <p>
+      {{ showMore ? content : (content | slice:0:150) + '...' }}
+      
+    <button class="readmore" (click)="toggleReadMore()">Read {{ showMore ? 'Less' : 'More' }}</button>
+    </p>
+</div>
+</div>
+<div class="topArtractive my-4">
+  <h2 class="my-3 mb-4">Top Attractions in Aswan</h2>
+  <div class="row">
+  <div class="col-md-4 mb-4" *ngFor="let item of attractions.slice(0,3)">
+ <app-card
+ title={{item.title}}
+ description={{item.description}}
+ image={{item.image}}
+ ></app-card>
+  </div>
+</div>
+
+</div>
+<div class="category">
+    <h2 class="mb-3">Explore by Category</h2>
+    <div class="btn-group mb-4" role="group">
+  <button
+    *ngFor="let type of types"
+    type="button"
+    class="btn"
+    [ngClass]="{ 'active': selectedType === type, 'nonActive': selectedType !== type }"
+    (click)="filterByType(type)">
+    {{ type }}
+  </button>
+</div>
+      <div class="row">
+  <div class="col-md-4 mb-4" *ngFor="let item of filteredCategory">
+      <app-card
+      title={{item.title}}
+      description={{item.description}}
+      image={{item.image}}
+      ></app-card>
+        </div>
+      </div>
+</div>
+</div>
+<app-articles></app-articles>
+<app-scrollUp_buton></app-scrollUp_buton>
+

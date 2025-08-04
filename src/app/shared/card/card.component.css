@@ -1,0 +1,16 @@
+.card p ,.card .readmore{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #7F7F7F;
+}
+.card .readmore{
+    border:none;
+    background-color: transparent;
+    display: inline;
+font-weight: 500;
+    color: #00212E;
+}
+.card img{
+    height: 250px;
+    object-fit: cover;
+}
